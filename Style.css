@@ -1,0 +1,168 @@
+
+body {
+  background: #9cb000;
+  color: #111111;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 20px;
+  width : 800px;
+  margin : auto;
+}
+
+#btn_primaire {
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+#connexion, #inscription, .formulaire {
+	width: 600px;
+	margin: 40px auto;
+	padding: 30px 5px 15px;
+	border: 2px solid #adad85;
+	border-radius: 14px;
+	position: relative;
+}
+#connexion p, #inscription p, .formulaire p, .news p, .container_msg p {
+	position: absolute;
+	top: -11px;
+	margin: 0;
+	left: 20px;
+	background-color: #9cb000;
+	padding: 0 3px;
+	z-index: 1;
+}
+
+#connexion button, #inscription button, .formulaire button {
+	width: 100%;
+	padding: 15px 0;
+	background-color: #008000;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+
+#connexion input, #inscription input, .formulaire textarea {
+	width: 100%;
+}
+
+.news, .admin {
+	position: relative;
+	border: 2px solid #adad85;
+	border-radius: 14px;
+	padding: 30px 5px 15px;
+	margin-bottom: 15px;
+}
+
+.container_msg {
+	position: relative;
+}
+
+.admin {
+	display: flex;
+	flex-direction: column-reverse;
+	max-height: 500px;
+	justify-content: flex-end;
+	overflow: hidden;
+}
+
+.admin div, .news div {
+	min-height: 35px;
+	height: 7%;
+	border: 1px solid #222;
+	border-radius: 5px;
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.admin div span, .news div span {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	width: 85%;
+	background-color: #009900;
+}
+.admin div span:first-child, .news div span:first-child {
+	width: 15%;
+	background-color: #336600;
+}
+
+#Entete{
+text-align : center;
+border-radius: 14px;
+border: 1px solid #000000;
+margin-bottom : 20px;
+background: #9cbc2c;
+}
+
+.input_text, #connexion input, #inscription input, .formulaire textarea {
+	width: calc(100% - 30px);
+	height: 38px;
+	border: 1px solid #999;
+	margin: 6px 0;
+	padding: 0 15px;
+	border-radius: 3px;
+}
+
+.formulaire textarea {
+	height: 100px;
+}
+
+.input_text::placeholder, #connexion input::placeholder, #inscription input::placeholder, .formulaire input::placeholder {
+	font-size: 20px;
+}
+
+
+#Zone_1, #Zone_2{
+	width : 600px;
+	margin : auto;
+}
+#Zone_2 hr {
+	width: 100%;
+	border: .5px solid #000;
+	padding: 0;
+	margin: 0;
+}
+#Zone_2 button {
+	width: 100%;
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #999;
+	height: 45px;
+	font-size: 22px;
+	padding: 0;
+	margin-bottom: 6px;
+}
+#Zone_1 div {
+	height: 35px;
+	border: 1px solid #222;
+	border-radius: 5px;
+	display: flex;
+	margin-bottom: 15px;
+}
+#Zone_1 div span {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	width: 85%;
+	background-color: #009900;
+}
+#Zone_1 div span:first-child {
+	width: 15%;
+	background-color: #336600;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
